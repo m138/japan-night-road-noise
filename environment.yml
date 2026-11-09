@@ -1,0 +1,17 @@
+# conda env create -f environment.yml && conda activate jnrn
+# Same versions as requirements.txt (tested with Python 3.13). geopandas and pyosmium are easier to install from conda-forge.
+name: jnrn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy=2.5.3
+  - pandas=3.0.5
+  - geopandas=1.2.0
+  - shapely=2.2.0
+  - pyogrio=0.13.0
+  - pyarrow=26.0.1
+  - matplotlib=3.11.2
+  - pyosmium=4.3.2      # only for run_detailed.sh
+  - curl
+  - unzip

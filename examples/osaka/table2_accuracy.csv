@@ -1,0 +1,13 @@
+scheme,roads,n,mean_error_dB,sd_dB,rmse_dB,mae_dB,within_3dB_pct,r,rho
+Before correction,Ordinary roads,11978.0,3.15,4.53,5.52,4.23,45.42,0.63,0.62
+"After correction, same data",Ordinary roads,11978.0,0.0,4.46,4.46,3.43,53.4,0.64,0.63
+Leave-one-prefecture-out,Ordinary roads,11978.0,-0.04,4.48,4.48,3.45,53.34,0.64,0.63
+Leave-one-block-out,Ordinary roads,11978.0,-0.01,4.57,4.57,3.52,51.9,0.62,0.61
+Split by year (2019-21 -> 2022-23),Ordinary roads,4829.0,0.02,4.44,4.44,3.4,53.9,0.64,0.63
+10-fold by site,Ordinary roads,11978.0,-0.0,4.47,4.47,3.43,53.37,0.64,0.63
+Before correction,Motorways,670.0,15.21,6.4,16.5,15.26,3.73,0.45,0.41
+"After correction, same data",Motorways,670.0,0.0,5.81,5.81,4.58,40.6,0.54,0.51
+Leave-one-prefecture-out,Motorways,670.0,0.06,5.89,5.89,4.65,39.7,0.53,0.51
+Leave-one-block-out,Motorways,670.0,0.08,5.85,5.84,4.61,39.7,0.54,0.51
+Split by year (2019-21 -> 2022-23),Motorways,268.0,-0.32,5.62,5.61,4.34,42.91,0.55,0.54
+10-fold by site,Motorways,670.0,-0.01,5.83,5.83,4.59,40.15,0.53,0.51

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "japan-night-road-noise: nationwide nighttime road traffic noise (Lnight) model for Japan"
+authors:
+  - family-names: Matsushita
+    given-names: Daisuke
+    orcid: "https://orcid.org/0000-0002-6765-9366"
+license: MIT
+repository-code: "https://github.com/m138/japan-night-road-noise"
+version: "0.2.0"
+date-released: "2026-11-09"

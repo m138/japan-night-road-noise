@@ -1,0 +1,11 @@
+# 動作確認した版（Python 3.13）
+numpy==2.5.3
+pandas==3.0.5
+geopandas==1.2.0
+shapely==2.2.0
+pyogrio==0.13.0
+pyarrow==26.0.1
+matplotlib==3.11.2
+
+# only for the detailed models (run_detailed.sh)
+osmium==4.3.2
